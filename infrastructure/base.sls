@@ -1,0 +1,4 @@
+include:
+  - dnsmasq
+  - resolver
+  - ntp
