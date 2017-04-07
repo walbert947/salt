@@ -1,3 +1,3 @@
 base:
   '*':
-    - infrastructure
+    - infrastructure.base
