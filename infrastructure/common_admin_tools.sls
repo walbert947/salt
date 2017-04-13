@@ -37,6 +37,7 @@ Install common admin tools:
       - tree
       - unzip
       - wget
+      - zsh
 
 {%- if grains['os_family'] == 'Debian' %}
       - apt-file
