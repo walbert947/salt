@@ -56,7 +56,7 @@ Install common admin tools:
       - vim-enhanced
       - yum-utils
       - yum-plugin-versionlock
-{%- if grains['osmajorrelease'] <= 6 %}
+{%- if grains['osmajorrelease']|int <= 6 %}
       - nc
       - tcptraceroute
       - traceroute
