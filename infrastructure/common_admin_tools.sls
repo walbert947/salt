@@ -38,7 +38,7 @@ Install common admin tools:
       - unzip
       - wget
 
-{%- if grains['os_family'] = Debian %}
+{%- if grains['os_family'] == Debian %}
       - apt-file
       - bind9-host
       - dnsutils
@@ -49,7 +49,7 @@ Install common admin tools:
       - traceroute
       - vim
 
-{%- elif grains['os_family'] = RedHat %}
+{%- elif grains['os_family'] == RedHat %}
       - bind-utils
       - redhat-lsb-core
       - mailx
