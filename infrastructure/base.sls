@@ -5,3 +5,4 @@ include:
   - sssd
   - pam
   - nsswitch
+  - infrastructure.common_tools
