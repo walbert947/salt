@@ -1,5 +1,5 @@
 Install common admin tools:
-  - pkg.installed:
+  pkg.installed:
     - pkgs:
       - atop
       - bash-completion
