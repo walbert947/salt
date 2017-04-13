@@ -62,7 +62,7 @@ Install common admin tools:
       - tcptraceroute
       - traceroute
 {%- else %}
-      - nmap-netcat
+      - nmap-ncat
       - traceroute
 {%- endif %}
 
