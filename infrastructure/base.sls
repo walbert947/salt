@@ -4,6 +4,8 @@ include:
   - ntp
   - fail2ban
   - fail2ban.config
+  - logrotate
+  - logrotate.jobs
   - sssd
   - pam
   - nsswitch
