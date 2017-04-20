@@ -2,6 +2,7 @@ include:
   - dnsmasq
   - resolver
   - ntp
+  - fail2ban
   - sssd
   - pam
   - nsswitch
