@@ -3,6 +3,7 @@ include:
   - resolver
   - ntp
   - fail2ban
+  - fail2ban.config
   - sssd
   - pam
   - nsswitch
