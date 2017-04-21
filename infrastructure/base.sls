@@ -1,4 +1,5 @@
 include:
+  - infrastructure.repos.epel
   - dnsmasq
   - resolver
   - ntp
