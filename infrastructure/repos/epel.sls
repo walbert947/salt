@@ -18,8 +18,6 @@ pkg-epel:
     - mode: '0444'
     - contents: |
 {%- if grains['osmajorrelease']|int <= 6 %}
-        pub  4096R/0608B895 2010-04-23 EPEL (6) <epel@fedoraproject.org>
-
         -----BEGIN PGP PUBLIC KEY BLOCK-----
         Version: GnuPG v1.4.5 (GNU/Linux)
 
