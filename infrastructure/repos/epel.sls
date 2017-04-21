@@ -3,7 +3,7 @@ pkg-epel:
   pkgrepo.managed:
     - name: epel
     - humanname: Extra Packages for Enterprise Linux $releasever - $basearch
-    - mirrorlist: https://mirrors.fedoraproject.org/metalink?repo=epel-$releaseve&arch=$basearch
+    - mirrorlist: https://mirrors.fedoraproject.org/metalink?repo=epel-$releasever&arch=$basearch
     - failovermethod: priority
     - enabled: 1
     - gpgcheck: 1
